@@ -1,0 +1,501 @@
+/***iconfont***/
+
+@font-face {font-family: 'iconfont';
+    src:url(../font/iconfont.eot); /* IE9*/
+    src: url(../font/iconfont.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(../font/iconfont.woff) format('woff'), /* chrome、firefox */
+    url(../font/iconfont.ttf) format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url(../font/iconfont.svg#iconfont) format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont1';
+    src:url(../font/iconfont1.eot); /* IE9*/
+    src: url(../font/iconfont1.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(../font/iconfont1.woff) format('woff'), /* chrome、firefox */
+    url(../font/iconfont1.ttf) format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url(../font/iconfont1.svg#iconfont) format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont2';
+    src:url(../font/iconfont2.eot); /* IE9*/
+    src: url(../font/iconfont2.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(../font/iconfont2.woff) format('woff'), /* chrome、firefox */
+    url(../font/iconfont2.ttf) format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url(../font/iconfont2.svg#iconfont) format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont3';
+    src:url(../font/iconfont3.eot); /* IE9*/
+    src: url(../font/iconfont3.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+    url(../font/iconfont3.woff) format('woff'), /* chrome、firefox */
+    url(../font/iconfont3.ttf) format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url(../font/iconfont3.svg#iconfont) format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    color:#333;
+    padding-top:5px;
+    line-height:35px;
+    padding-right:5px;
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.iconfont1 {
+    color:#fff;
+    padding-top:5px;
+    line-height:35px;
+    padding-right:5px;
+    font-family:"iconfont1" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.iconfont2 {
+    padding-top:5px;
+    line-height:45px;
+    padding-right:5px;
+    font-family:"iconfont2" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.iconfont3 {
+    color:#C40000;
+    line-height:50px;
+    padding-left:20px;
+    font-family:"iconfont3" !important;
+    font-size:48px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+
+/*公用样式*/
+body{
+    background-color: #F2F2F2;
+}
+.comWidth{
+    width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/*top样式*/
+.topBar{
+    height: 35px;
+    width: auto;
+    line-height: 35px;
+    border-bottom: 1px solid #E5E5E5;
+    font-weight: bold;
+}
+.topBar a:hover{
+    color:#C00;
+}
+.leftArea{
+    background: url(../icon/start.png) center left no-repeat;
+    padding-left:24px
+}
+
+/*logo样式*/
+.logoBar{
+    height:130px;
+    background-color: #FFF;
+}
+
+/*搜索框和购物车样式*/
+.search_box{
+    width: 450px;
+    border:#C40000 solid 1px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.search_text{
+    width: 350px;
+    height: 35px;
+    height: 16px;
+    line-height: 16px;
+    padding: 10px 5px 9px;
+}
+
+.search_button{
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    font-family: "微软雅黑 Light";
+    background-color: #C40000;
+    color: #FFF;
+    font-weight: bold;
+}
+.shopCar{
+    width: 160px;
+    height: 35px;
+    margin-top:40px;
+    background-color: #C40000;
+    font:16px/35px "微软雅黑 Light";color: #FFF;
+}
+
+.shopText{
+    font-weight: bold;
+    height: 100%;
+    width: 100px;
+    line-height: 35px;
+    border-right: #D20000 solid 1px;
+    background: url(../icon/shopping_cart.png) 8px center no-repeat;
+    text-indent: 40px;
+}
+
+.shopNum{
+    height: 100%;
+    width: 36px;
+    border-left:#D90000 solid 1px;
+    background: url("../icon/drop.png") 34px center no-repeat;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/*导航样式*/
+/************************************导航样式******************************************/
+.navBox{
+    height:35px;
+    background-color:#C40000;
+    font:16px/35px "微软雅黑 Light";color:#FFF;
+}
+.shopClass{
+    width:180px;
+    height:100%;
+    position:relative;
+}
+.shopClass h3{
+    background:url(../icon/list.png) 5px center no-repeat;
+    text-indent:24px;
+    font-size:16px;
+    padding-left:5px;
+    background-color:#EC0000;
+}
+.nav{
+    width:920px;
+    position:relative;
+}
+.nav li{
+    width:110px;
+    height:35px;
+    overflow:hidden;
+    float:left;
+    line-height:35px;
+}
+.nav li a{
+    color:#FFF;
+    display:inline-block;
+    text-indent:25px;
+}
+#i0, #i1{
+    text-indent:10px;
+    width:140px;
+}
+.cat{
+    position:absolute;
+    top:-95px;
+    display:none;
+    padding-left:7px;
+}
+.nav li:hover,.nav li:active{
+    background-color:#EC0000;
+
+}
+.nav li:hover .cat,.nav li:active .cat{
+    display:block;
+}
+
+/*商品弹出列表*/
+.shopClass_show{
+    background-color: #F2F2F2;
+    position: absolute;
+    left: 0px;
+    top: 35px;
+    width: 100%;
+    height: 500px;
+}
+.shopClass_item1 dt>a{
+    font-family:"微软雅黑 Light";
+    font-size:14px;
+    color:#000;
+    padding-left:10px;}
+.shopClass_item1 dt{
+    line-height:31px;
+    height:31px;
+}
+/*右侧商品弹出列表*/
+.shopClass_list{
+    background-color: #ccc;
+    position: absolute;
+    width: 856px;
+    height: 500px;
+    top: 0px;
+    left: 180px;
+    font: 14px/25px "微软雅黑 Light"; color: #000;
+    display: none;
+
+}
+.shopClass_left{
+    width: 576px;
+    background-color: #fff;
+    padding: 15px 30px;
+    height: 470px;
+}
+.shopClass_right, .shopClass_buttom{
+    width: 200px;
+    margin: 10px;
+    background-color: #fff;
+}
+.shopClass_list dt{
+    width: 150px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 0;
+}
+.shopClass_list dd{
+    line-height: 25px;
+    padding-left: 130px;
+    margin-top: -35px;
+    border-bottom: #CCC dotted 1px;
+}
+.shopClass_list dd a{
+    color: #000;
+    margin-right: 8px;
+}
+.shopClass_list dd a.red{color: #E54077}
+
+/*弹出特效*/
+.shopClass_item1 dt:hover,.shopClass_item1 dt:active{
+    background-color: #FFF;
+}
+.shopClass_item1 dt:hover dt>a,.shopClass_item1 dt:active dt>a{
+    color: #C40000;
+    font-weight: bold;
+}
+.shopClass_item1 dt:hover i,.shopClass_item1 dt:active i{
+     color:#C40000;
+}
+.shopClass_item1 dt:hover .shopClass_list,.shopClass_item1 dt:active.shopClass_list{
+    z-index: 999;
+    display: block;
+}
+
+/*banner区*/
+.banner_bar{
+    height: 500px;
+    width: 920px;
+    position: relative;
+    overflow: hidden;
+    float: right;
+}
+.imgBox{
+    width: 3680px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.imgBox li{float: left}
+.imgBox img{
+    width: 920px;
+    height: 500px;
+    display: block;
+
+}
+.imgNum{position: absolute;left: 0;bottom: 15px;width: 100%;text-align: center;}
+.imgNum a{
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+    margin: 0 8px;
+    border-radius: 9px;
+}
+.imgNum .active{
+    background-color: #C40000;
+}
+/*专场区*/
+.ShopTitle{
+    height: 65px;
+    font: 16px/45px "微软雅黑 Light";color: #C40000;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.ShopBox .ShopFrame{text-align: center;}
+.ShopBox a{
+    display: inline-block;
+}
+.ShopFrame a{
+    width: 212px;
+    height: 35px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #DD2727;
+    text-align: center;
+    font: 20px/35px "微软雅黑 Light";color: #FFF;
+}
+/*二楼区*/
+.FloorTitle{
+    width: 100%;
+    height: 22px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.FloorTitle h3{
+    text-align: left;
+    font: 18px/22px "微软雅黑 Light";color: #000;
+    text-indent: 5px;
+}
+.FloorList{
+    height: 440px;
+    width: 1100px;
+    position: relative;
+}
+.FloorLeft{
+    width: 246px;
+    height: 440px;
+    position: relative;
+    float: left;
+}
+.FloorLeftTop{
+    width: 246px;
+    height: 330px;
+    text-align: center;
+}
+.FloorLeftMiddle{
+    position: absolute;
+    text-align: center;
+    width: 246px;
+    height: 30px;
+    background-color: #FFF;
+    filter: alpha(opacity:40);
+    opacity: 0.4;
+    top: 300px;
+    font-style: normal;
+    font: 18px/30px "微软雅黑 Light";color: #000;
+}
+.FloorLeftMiddle:hover,.FloorLeftMiddle:active{color: #C40000;font-weight: bold;}
+.FloorLeftButtom{
+    text-align: center;
+    width: 246px;
+    height: 75px;
+    padding-top: 35px;
+}
+.FloorLeftButtom h3{
+    font: 18px/30px "微软雅黑 Light";color: #FFF;
+    font-weight: bold;
+}
+.FloorLeftButtom h4{
+    font: 18px/20px "微软雅黑 Light";color: #FFF;
+}
+/*右侧商品*/
+.FloorRight{
+    height: 436px;
+    background: #FFF;
+    width: 852px;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+    border-bottom: 3px solid #C40000;
+    float: left;
+}
+.Shop_item{
+    width: 212px;
+    border-right: 1px solid #999;
+    border-buttom: 1px solid #999;
+    height: 218px;
+    text-align: center;
+    font-family: "微软雅黑 Light";
+    overflow: hidden;
+}
+.Shop_item h3{
+    font-size: 14px;
+
+}
+.Shop_item p{
+    font-size: 12px;
+}
+
+/*帮助区*/
+.Help_Bar{
+    width: auto;
+    border-top: 1px solid #999;
+    margin-top: 60px;
+    height: 365px;
+    border-bottom: 3px solid #C40000;
+    background-color: #FFF;
+}
+.Help_Box{
+    margin: 0 auto;
+}
+.Help_Top{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    height: 150px;
+}
+.Help_Item{
+    height: 50px;
+    width: 274px;
+    margin-top: 50px;
+}
+.Help_Item>div{
+    height: 100%;
+    float: left;
+}
+.Help_Item h3{
+    font: 16px/25px "微软雅黑 Light";color: #000;
+    font-weight: bold;
+}
+.Help_Item p{
+    font: 16px/25px "微软雅黑 Light";color: #999;
+    font-weight: bold;
+}
+/*底部*/
+.Help_Bottom{
+    width: 100%;
+    padding-top: 30px;
+}
+.Help_Bottom ul li{
+    width: 220px;
+    float: left;
+    display: inline-block;
+}
+.Help_Bottom ul li a{
+    font: 16px/25px "微软雅黑 Light";color: #333;
+    font-weight: bold;
+}
+.Help_Bottom ul li ul li a{
+    font:12px/20px "微软雅黑 Light";color: #999;
+}
+/*页脚区*/
+.Footer{
+    background-color: #000;
+}
+.Footer_Box{
+    max-width: 1200px;
+    font: 12px/20px "微软雅黑 Light";color: #999;
+    margin: 0 auto;
+    height: 190px;
+    padding-top: 5px;
+}
+.Footer_Box span{
+    margin-right: 70px;
+    height: 20px;
+}
+.Footer_Box p{
+    height: 20px;
+}
+.Footer_Box a{
+    margin: 10px 4px;
+    height: 20px;
+    font: 12px/20px "微软雅黑 Light";color: #FFF;
+}
+.Footer_Box img{
+    margin-right: 10px;
+    margin-top: 8px;
+}
